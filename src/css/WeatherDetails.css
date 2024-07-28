@@ -1,0 +1,69 @@
+.image{
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.temp,
+.location,
+.country{
+    margin-top: 5px;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.temp{
+    font-weight: 600;
+}
+.location{
+    color:darkgreen;
+    font-weight: 900;
+}
+.country{
+    font-size: 18px;
+    color: #888;
+    font-weight: 500;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.card>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.lat{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(221, 168, 24);
+}
+.log{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(221, 168, 24);
+}
+.val{
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.data-container{
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.element{
+    text-align: center;
+}
+.percentage{
+    font-size: 18px;
+    color: #888;
+    font-weight: 300;
+}
+.text{
+    font-size: 12px;
+}

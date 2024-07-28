@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 350px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.input-container{
+  display: flex;
+  width: 100%;
+  padding: 10px 0px;
+  align-items: center;
+  border: 2px solid green;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.cityInput{
+  flex: 1;
+  border: none;
+  font-size: 16px;
+  padding-left: 15px;
+  outline: none;
+  background: none;
+}
+.search-icon{
+  margin-right: 10px;
+  cursor: pointer;
+}
+p{
+  text-align: center;
+  color: #888;
+  font-weight: 200;
+}
+.line{
+  margin: 25px 0px;
+  color: #88888849;
+}
+.loading-message,
+.city-not-found,
+.error{
+  margin-top: 10px;
+  color: #888;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
